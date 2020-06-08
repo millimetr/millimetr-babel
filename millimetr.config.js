@@ -132,7 +132,7 @@ const createConfig = async () => ({
         {
             url: '/hardcoded',
             title: 'Hardcoded Data',
-            starters: STARTERS_ARRAY.filter(({ name }) => name !== 'millimetr-default'),
+            starters: STARTERS_ARRAY.filter(({ name }) => name !== 'millimetr-babel'),
             template: './src/views/starters.ejs',
         },
         {

@@ -1,5 +1,5 @@
 {
-  "name": "millimetr-default",
+  "name": "millimetr-babel",
   "license": "MIT",
   "scripts": {
     "start:js": "babel src/js/**/*.js --out-dir src/static/assets --watch",

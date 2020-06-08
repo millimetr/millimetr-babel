@@ -1,8 +1,8 @@
 # ⚡️ millimetr-babel
 
-This is a millimetr starting template with Babel integration
+This is a millimetr starting template with [Babel](https://babeljs.io/) integration
 
-Note that [Babel](https://babeljs.io/) only does [transpilation](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them]). If you want module resolution, i.e. via `import`/`require` then use [millimetr-parcel](https://github.com/millimetr/millimetr-parcel) or [millimetr-webpack](https://github.com/millimetr/millimetr-webpack)).
+Note that Babel only does [transpilation](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them]). If you want module resolution, i.e. via `import`/`require` then use [millimetr-parcel](https://github.com/millimetr/millimetr-parcel) or [millimetr-webpack](https://github.com/millimetr/millimetr-webpack)).
 
 _Note that the CSS selectors in this demo follow the [BEM convention](https://en.bem.info/methodology/css/#selectors). However you are welcome to restructure them according to your preferences._
 
