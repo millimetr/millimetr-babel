@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="<%= millimetr.globals.language %>">
+  <%- include('../includes/head', { title: millimetr.globals.title, description: millimetr.globals.description }) %>
+
+  <body>
+    <div class="layout">
+      <%- include('../includes/menu', { routes: millimetr.internals.routes.all, currentUrl: millimetr.internals.routes.active.url }) %>
+
+      <main class="layout__content">
+        <h1><%= title %></h1>
+
+        <p>
+          The following is pulled live from the web (via <code class="code">https://jsonplaceholder.typicode.com/posts</code>) during the build process:
+        </p>
+
+        <ul class="grid">
+          <% posts.data.forEach(({ title, body }) => { %>
+            <li class="grid__item">
+              <span class="card">
+                <h3 class="card__title"><%= title %></h3>
+
+                <p class="card__description"><%= body %></p>
+              </a>
+            </li>
+          <% }); %>
+        </ul>
+      </main>
+
+      <%- include('../includes/footer') %>
+    </div>
+  </body>
+</html>
