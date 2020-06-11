@@ -126,7 +126,7 @@ const createConfig = async () => ({
     routes: [
         {
             url: '/',
-            title: 'Millimeter Default Starter',
+            title: 'Millimeter Babel Starter',
             template: './src/views/homepage.ejs',
         },
         {
