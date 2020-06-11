@@ -8,7 +8,7 @@ _Note that the CSS selectors in this demo follow the [BEM convention](https://en
 
 ## Getting started
 
-1. `git clone https://github.com/millimetr/millimetr-default.git`
+1. `git clone https://github.com/millimetr/millimetr-babel.git`
 2. `npm install`
 3. `npm start`
 
